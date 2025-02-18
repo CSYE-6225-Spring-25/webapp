@@ -62,6 +62,6 @@ jobs:
 
       - name: Publish test results
         if: success()
-        run: |
+        run: | 
           echo "healthz passed" >> $GITHUB_STEP_SUMMARY
           echo "CAN MERGE" >> $GITHUB_STEP_SUMMARY

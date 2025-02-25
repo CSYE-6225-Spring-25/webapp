@@ -1,6 +1,6 @@
 # Webapp
 
-## Overview
+## Overview  
 
 The Health Check API is designed to monitor the health of the application instance, ensuring that it can handle requests effectively. It helps prevent routing traffic to unhealthy instances and improves the user experience by detecting and alerting when the service is down or unable to process requests.
 

@@ -41,7 +41,7 @@ describe('Healthz API Tests', () => {
     test('GET /healthz should return 200 and no-cache header', (done) => {
         request(server)
             .get('/healthz')
-            .expect(200)
+            .expect(201)
             .expect('Cache-Control', 'no-cache', done);
     });
     

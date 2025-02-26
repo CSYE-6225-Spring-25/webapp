@@ -9,7 +9,7 @@ packer {
       source  = "github.com/hashicorp/googlecompute"
     }
   }
-}
+          }
 
 variable "aws-access-key" {
   type        = string

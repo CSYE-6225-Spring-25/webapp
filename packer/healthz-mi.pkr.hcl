@@ -14,8 +14,7 @@ packer {
 variable "aws-access-key" {
   type        = string
   description = "this is the access of aws"
-  sensitive   = true
-  default     = ""
+  sensitive   = tr
 }
 
 variable "aws-region" {

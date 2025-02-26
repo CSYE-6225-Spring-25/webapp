@@ -12,7 +12,7 @@ packer {
 }
 
 variable "gcp-project-id" {
-  type    = string
+  type    =      string
   default = "devproject-451800"
 }
 

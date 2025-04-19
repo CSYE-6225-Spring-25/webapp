@@ -61,6 +61,7 @@ const initialize = (app) => {
 
   // Route
   app.use('/healthz', healthCheckRoute);
+  app.use('/cicd', healthCheckRoute);
 
   app.use(handleServerErrors);
 

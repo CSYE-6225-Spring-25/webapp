@@ -15,6 +15,7 @@ To set up and run the project locally, follow these steps:
    cd <project-directory>
    ```
 
+
 2. **Install dependencies**:
 
    ```bash
@@ -41,6 +42,7 @@ To set up and run the project locally, follow these steps:
    ```
 
 
+
 ## Database Table
 
 A table named `health_check` is created with the following schema:
@@ -55,11 +57,11 @@ A table named `health_check` is created with the following schema:
 
 ## API Endpoint
 
-### `GET /healthz`
+### `GET /healthz endpoint`
 
 #### Functionality:
 
-1. **Checks database connectivity** by inserting a record into the `health_check` table.
+1. **Checks database connectivity** by inserting a record into the `health_check table` table.
 2. **Returns HTTP 200 OK** if the record was successfully inserted.
 3. **Returns HTTP 503 Service Unavailable** if the insert operation fails.
 4. **Ensures no caching** of the response by setting the `Cache-Control: no-cache` header.

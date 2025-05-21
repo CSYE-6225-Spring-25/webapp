@@ -57,7 +57,7 @@ A table named `health_check` is created with the following schema:
 
 ## API Endpoint
 
-### `GET /healthz`
+### `GET /healthz endpoint`
 
 #### Functionality:
 

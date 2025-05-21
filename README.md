@@ -14,6 +14,7 @@ To set up and run the project locally, follow these steps:
    git clone <repository-url>
    cd <project-directory>
    ```
+   
 
 2. **Install dependencies**:
 
